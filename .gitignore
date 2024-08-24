@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/svc.birdcage.entity/bin/Debug
+/svc.birdcage.entity/obj
+/svc.birdcage.model/bin/Debug/net8.0
+/svc.birdcage.model/obj

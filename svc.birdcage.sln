@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E9C38368-135A-411B-B0B8-D70C55074AF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "svc.birdcage.entity", "svc.birdcage.entity\svc.birdcage.entity.csproj", "{DDFE5DBF-5E68-4295-914E-CB7432158DC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "svc.birdcage.model", "svc.birdcage.model\svc.birdcage.model.csproj", "{E8A57335-18CA-400E-8A09-325CB3A62DAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDFE5DBF-5E68-4295-914E-CB7432158DC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDFE5DBF-5E68-4295-914E-CB7432158DC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDFE5DBF-5E68-4295-914E-CB7432158DC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDFE5DBF-5E68-4295-914E-CB7432158DC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8A57335-18CA-400E-8A09-325CB3A62DAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8A57335-18CA-400E-8A09-325CB3A62DAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8A57335-18CA-400E-8A09-325CB3A62DAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8A57335-18CA-400E-8A09-325CB3A62DAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DDFE5DBF-5E68-4295-914E-CB7432158DC5} = {E9C38368-135A-411B-B0B8-D70C55074AF3}
+		{E8A57335-18CA-400E-8A09-325CB3A62DAA} = {E9C38368-135A-411B-B0B8-D70C55074AF3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE04008B-05FD-4942-9882-06F586C10B61}
+	EndGlobalSection
+EndGlobal
