@@ -6,5 +6,10 @@ public interface IRepository<T> where T : BaseIdEntity
     public void Delete(T entity);
     public void Update(T entity);
     public List<T> GetAll();
-    public T GetById(int id);
+    public T GetById(Guid id);
+    public Task AddAsync(T entity);
+    public Task DeleteAsync(T entity);
+    public Task UpdateAsync(T entity);
+    public Task<List<T>> GetAllAsync();
+    public Task<T?> GetByIdAsync(Guid id);
 }

@@ -1,4 +1,6 @@
-﻿namespace svc.birdcage.model.Implementation;
+﻿using System.Threading.Tasks;
+
+namespace svc.birdcage.model.Implementation;
 
 public class Repository<T> : IRepository<T> where T : BaseIdEntity
 {
@@ -27,7 +29,7 @@ public class Repository<T> : IRepository<T> where T : BaseIdEntity
         return this.entity.ToList();
     }
 
-    public T GetById(int id)
+    public T GetById(Guid id)
     {
         var entity = _context.Find<T>(id);
         return entity;
@@ -37,5 +39,33 @@ public class Repository<T> : IRepository<T> where T : BaseIdEntity
     {
         _context.Update(entity);
         _context.SaveChanges();
+    }
+
+    public async Task AddAsync(T entity)
+    {
+        await this.entity.AddAsync(entity);
+        await _context.SaveChangesAsync();
+    }
+
+    public async Task DeleteAsync(T entity)
+    {
+        this.entity.Remove(entity);
+        await _context.SaveChangesAsync();
+    }
+
+    public async Task<List<T>> GetAllAsync()
+    {
+        return await this.entity.ToListAsync();
+    }
+
+    public async Task<T?> GetByIdAsync(Guid id)
+    {
+        return await _context.FindAsync<T>(id);
+    }
+
+    public async Task UpdateAsync(T entity)
+    {
+        _context.Update(entity);
+        await _context.SaveChangesAsync();
     }
 }
