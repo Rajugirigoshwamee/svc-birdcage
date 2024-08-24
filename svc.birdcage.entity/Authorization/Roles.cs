@@ -1,6 +1,6 @@
 ﻿namespace svc.birdcage.entity.Authorization;
 
-[Index(propertyName: "RoleName", IsUnique = true)]
+[Index(propertyName: "RoleName", IsUnique = false)]
 public class Roles : BaseCreateAuditEntity
 {
     public required string RoleName { get; set; }

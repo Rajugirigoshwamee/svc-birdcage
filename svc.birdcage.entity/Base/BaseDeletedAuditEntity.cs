@@ -1,6 +1,6 @@
 ﻿namespace svc.birdcage.entity.Base;
 
-[Index(propertyName: "IsDeleted", IsUnique = true)]
+[Index(propertyName: "IsDeleted", IsUnique = false)]
 [Index(propertyName: "DeletedBy")]
 [Index(propertyName: "DeletedDate")]
 public class BaseDeletedAuditEntity : BaseIdEntity

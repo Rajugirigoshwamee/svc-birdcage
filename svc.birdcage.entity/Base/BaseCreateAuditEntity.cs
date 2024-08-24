@@ -1,7 +1,7 @@
 ﻿namespace svc.birdcage.entity.Base;
 
 [Index(propertyName: "CreateBy", IsUnique = false)]
-[Index(propertyName: "CreateDate", IsUnique = true)]
+[Index(propertyName: "CreateDate", IsUnique = false)]
 public class BaseCreateAuditEntity : BaseModifiedAuditEntity
 {
 
