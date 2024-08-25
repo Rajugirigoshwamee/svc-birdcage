@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace svc.birdcage.model.Implementation;
+namespace svc.birdcage.model.Implementation.Repositories;
 
 public class Repository<T> : IRepository<T> where T : BaseIdEntity
 {
@@ -26,7 +26,7 @@ public class Repository<T> : IRepository<T> where T : BaseIdEntity
 
     public List<T> GetAll()
     {
-        return this.entity.ToList();
+        return entity.ToList();
     }
 
     public T GetById(Guid id)
@@ -55,7 +55,7 @@ public class Repository<T> : IRepository<T> where T : BaseIdEntity
 
     public async Task<List<T>> GetAllAsync()
     {
-        return await this.entity.ToListAsync();
+        return await entity.ToListAsync();
     }
 
     public async Task<T?> GetByIdAsync(Guid id)
