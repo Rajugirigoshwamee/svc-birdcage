@@ -1,13 +1,12 @@
 ﻿namespace svc.birdcage.model.Implementation.Dapper;
 
-public class DapperServices<TConfig> : IDapperService
+public class DapperServices : IDapperService
 {
     private IDbConnection _connection;
-    private TConfig _connectionString;
 
-    public DapperServices()
+    public DapperServices(string connectionString)
     {
-        this._connection = new SqlConnection(_connectionString!.ToString());
+        this._connection = new SqlConnection(connectionString);
     }
     public Task<IEnumerable<T>> GetTableAsync<T>(string query, object parameters)
     {
