@@ -1,4 +1,4 @@
-﻿using svc.birdcage.model.Enums;
+﻿using svc.birdcage.entity.Enums;
 
 namespace svc.birdcage.entity.Authorization
 {
