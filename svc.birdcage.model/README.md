@@ -1,3 +1,6 @@
+## Version 1.0.12
+* update verison of packages
+
 ## Version 1.0.11
 * Remove base error response file
 
