@@ -6,6 +6,7 @@
 		<Nullable>enable</Nullable>
 		<GeneratePackageOnBuild>False</GeneratePackageOnBuild>
 		<Version>1.0.3</Version>
+		<BaseOutputPath>D:\Project\T\hrms\package</BaseOutputPath>
 	</PropertyGroup>
 
 	<ItemGroup>

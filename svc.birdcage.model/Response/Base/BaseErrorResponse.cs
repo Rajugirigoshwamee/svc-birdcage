@@ -11,5 +11,5 @@ public class BaseErrorResponse
     public required string Message { get; set; }
 
     [JsonPropertyName("data")]
-    public dynamic? Data { get; set; }
+    public dynamic Data { get; set; }
 }

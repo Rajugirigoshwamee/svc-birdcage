@@ -12,6 +12,7 @@ public class DapperServices : IDapperService
     {
         this._connection = new SqlConnection(connectionString);
     }
+    
     #region Add or Update single or multiple records.
 
     public int AddOrUpdate<T>(string query, T entity, CommandType type = CommandType.StoredProcedure)
