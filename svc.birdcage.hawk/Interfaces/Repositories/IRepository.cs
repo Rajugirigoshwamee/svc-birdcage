@@ -25,7 +25,7 @@ public interface IRepository<T> where T : BaseIdEntity
     #endregion
 
     #region Delete Records
-    
+
     public void Delete(T entity);
     public Task DeleteAsync(T entity);
 

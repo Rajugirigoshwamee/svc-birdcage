@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace svc.birdcage.parrot.Masters;
+﻿namespace svc.birdcage.parrot.Masters;
 
 [Index(propertyName: "Name", IsUnique = true)]
 public class Countries : BaseCreateAuditEntity

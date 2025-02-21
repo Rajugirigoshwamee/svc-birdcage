@@ -1,6 +1,4 @@
-﻿using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
-
-namespace svc.birdcage.hawk.Implementation.Dapper;
+﻿namespace svc.birdcage.hawk.Implementation.Dapper;
 
 public class DapperServices : IDapperService
 {
@@ -12,7 +10,7 @@ public class DapperServices : IDapperService
     {
         this._connection = new SqlConnection(connectionString);
     }
-    
+
     #region Add or Update single or multiple records.
 
     public int AddOrUpdate<T>(string query, T entity, CommandType type = CommandType.StoredProcedure)
