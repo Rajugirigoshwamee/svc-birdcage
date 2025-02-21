@@ -13,9 +13,9 @@ global using System.Data.SqlClient;
 
 #region Project Global Namespaces
 
-global using svc.birdcage.entity.Base;
-global using svc.birdcage.model.Repositories;
-global using svc.birdcage.model.Interfaces.Dapper;
+global using svc.birdcage.parrot.Base;
+global using svc.birdcage.hawk.Repositories;
+global using svc.birdcage.hawk.Interfaces.Dapper;
 
 #endregion
 

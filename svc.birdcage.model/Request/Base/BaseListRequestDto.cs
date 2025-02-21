@@ -1,4 +1,4 @@
-﻿namespace svc.birdcage.model.Request.Base;
+﻿namespace svc.birdcage.hawk.Request.Base;
 
 public class BaseListRequestDto
 {

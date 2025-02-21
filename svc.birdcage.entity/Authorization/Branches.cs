@@ -1,4 +1,4 @@
-﻿namespace svc.birdcage.entity.Authorization
+﻿namespace svc.birdcage.parrot.Authorization
 {
     public class Branches : BaseCreateAuditEntity
     {

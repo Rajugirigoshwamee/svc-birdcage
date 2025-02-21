@@ -1,4 +1,4 @@
-﻿namespace svc.birdcage.entity.Base;
+﻿namespace svc.birdcage.parrot.Base;
 
 [Index(propertyName: "CreateBy", IsUnique = false)]
 [Index(propertyName: "CreateDate", IsUnique = false)]

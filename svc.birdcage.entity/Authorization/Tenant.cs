@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace svc.birdcage.entity.Authorization;
+namespace svc.birdcage.parrot.Authorization;
 
 [Index(propertyName: "Name", "MobileNo", IsUnique = true)]
 public class Tenant

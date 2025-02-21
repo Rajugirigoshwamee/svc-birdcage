@@ -1,4 +1,4 @@
-﻿namespace svc.birdcage.model.Consts;
+﻿namespace svc.birdcage.hawk.Consts;
 
 public class ApiVersionConst
 {

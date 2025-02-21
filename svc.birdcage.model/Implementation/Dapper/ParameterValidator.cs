@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 
-namespace svc.birdcage.model.Implementation.Dapper
+namespace svc.birdcage.hawk.Implementation.Dapper
 {
     public class ParameterValidator
     {

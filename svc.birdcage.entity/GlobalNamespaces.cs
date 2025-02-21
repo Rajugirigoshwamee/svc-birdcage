@@ -13,7 +13,7 @@ global using System.ComponentModel.DataAnnotations.Schema;
 
 #region Project Global Namespaces
 
-global using svc.birdcage.entity.Authorization;
-global using svc.birdcage.entity.Base;
+global using svc.birdcage.parrot.Authorization;
+global using svc.birdcage.parrot.Base;
 
 #endregion

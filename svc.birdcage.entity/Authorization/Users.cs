@@ -1,4 +1,4 @@
-﻿namespace svc.birdcage.entity.Authorization;
+﻿namespace svc.birdcage.parrot.Authorization;
 
 [Index(propertyName: "Username", "Password", IsUnique = true)]
 public class Users : BaseCreateAuditEntity

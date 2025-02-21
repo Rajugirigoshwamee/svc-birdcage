@@ -1,4 +1,4 @@
-﻿namespace svc.birdcage.model.Commands;
+﻿namespace svc.birdcage.hawk.Commands;
 
 public interface ICommandHandler<TCommand, TResponse>
 {

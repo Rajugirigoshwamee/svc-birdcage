@@ -1,4 +1,4 @@
-﻿namespace svc.birdcage.entity.Authorization;
+﻿namespace svc.birdcage.parrot.Authorization;
 
 [Index(propertyName: "RoleName", IsUnique = false)]
 public class Roles : BaseCreateAuditEntity

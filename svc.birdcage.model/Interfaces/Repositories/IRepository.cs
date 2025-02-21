@@ -1,4 +1,4 @@
-﻿namespace svc.birdcage.model.Repositories;
+﻿namespace svc.birdcage.hawk.Repositories;
 
 public interface IRepository<T> where T : BaseIdEntity
 {

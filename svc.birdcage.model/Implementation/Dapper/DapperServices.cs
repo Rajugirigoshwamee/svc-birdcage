@@ -1,6 +1,6 @@
 ﻿using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 
-namespace svc.birdcage.model.Implementation.Dapper;
+namespace svc.birdcage.hawk.Implementation.Dapper;
 
 public class DapperServices : IDapperService
 {

@@ -5,9 +5,9 @@ VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E9C38368-135A-411B-B0B8-D70C55074AF3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "svc.birdcage.entity", "svc.birdcage.entity\svc.birdcage.entity.csproj", "{DDFE5DBF-5E68-4295-914E-CB7432158DC5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "svc.birdcage.parrot", "svc.birdcage.entity\svc.birdcage.parrot.csproj", "{DDFE5DBF-5E68-4295-914E-CB7432158DC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "svc.birdcage.model", "svc.birdcage.model\svc.birdcage.model.csproj", "{E8A57335-18CA-400E-8A09-325CB3A62DAA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "svc.birdcage.hawk", "svc.birdcage.model\svc.birdcage.hawk.csproj", "{E8A57335-18CA-400E-8A09-325CB3A62DAA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

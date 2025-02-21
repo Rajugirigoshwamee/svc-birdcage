@@ -1,4 +1,4 @@
-﻿namespace svc.birdcage.entity.Enums
+﻿namespace svc.birdcage.parrot.Enums
 {
     public enum PermissionType
     {

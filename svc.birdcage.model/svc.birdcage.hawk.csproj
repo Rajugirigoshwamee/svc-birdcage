@@ -17,7 +17,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\svc.birdcage.entity\svc.birdcage.entity.csproj" />
+		<ProjectReference Include="..\svc.birdcage.entity\svc.birdcage.parrot.csproj" />
 	</ItemGroup>
 
 </Project>

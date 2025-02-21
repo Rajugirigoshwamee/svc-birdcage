@@ -1,4 +1,4 @@
-﻿namespace svc.birdcage.model.Interfaces.Dapper;
+﻿namespace svc.birdcage.hawk.Interfaces.Dapper;
 
 public interface IDapperService
 {

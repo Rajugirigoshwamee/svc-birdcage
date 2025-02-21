@@ -1,6 +1,6 @@
-﻿using svc.birdcage.entity.Enums;
+﻿using svc.birdcage.parrot.Enums;
 
-namespace svc.birdcage.entity.Authorization
+namespace svc.birdcage.parrot.Authorization
 {
     public class Permission : BaseCreateAuditEntity
     {

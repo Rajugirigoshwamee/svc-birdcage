@@ -1,4 +1,4 @@
-﻿namespace svc.birdcage.entity.Masters;
+﻿namespace svc.birdcage.parrot.Masters;
 
 public class States : BaseCreateAuditEntity
 {

@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace svc.birdcage.model.Implementation.Repositories;
+namespace svc.birdcage.hawk.Implementation.Repositories;
 
 public class Repository<T> : IRepository<T> where T : BaseIdEntity
 {

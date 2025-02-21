@@ -1,4 +1,4 @@
-﻿namespace svc.birdcage.model.Response.Base;
+﻿namespace svc.birdcage.hawk.Response.Base;
 
 public class BaseListResponseDto
 {
