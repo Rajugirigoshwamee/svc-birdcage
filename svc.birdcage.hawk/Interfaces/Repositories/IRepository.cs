@@ -32,6 +32,7 @@ public interface IRepository<T> where T : BaseIdEntity
     #endregion
 
     #region Get By Id Records
+
     public T GetById(Guid id);
     public Task<T?> GetByIdAsync(Guid id);
 

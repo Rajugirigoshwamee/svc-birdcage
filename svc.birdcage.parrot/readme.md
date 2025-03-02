@@ -1,3 +1,6 @@
+## Version 1.0.6
+* Change project name
+
 ## Version 1.0.5
 * Add branch table
 
