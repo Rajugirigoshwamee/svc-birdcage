@@ -22,12 +22,12 @@ public class Repository<T> : IRepository<T> where T : BaseIdEntity
         _context.SaveChanges();
     }
 
-    public List<T> GetAll()
+    public List<T> FindAll()
     {
         return entity.ToList();
     }
 
-    public T GetById(Guid id)
+    public T FindById(Guid id)
     {
         var entity = _context.Find<T>(id);
         return entity;
@@ -51,12 +51,12 @@ public class Repository<T> : IRepository<T> where T : BaseIdEntity
         await _context.SaveChangesAsync();
     }
 
-    public async Task<List<T>> GetAllAsync()
+    public async Task<List<T>> FindAllAsync()
     {
         return await entity.ToListAsync();
     }
 
-    public async Task<T?> GetByIdAsync(Guid id)
+    public async Task<T?> FindByIdAsync(Guid id)
     {
         return await _context.FindAsync<T>(id);
     }

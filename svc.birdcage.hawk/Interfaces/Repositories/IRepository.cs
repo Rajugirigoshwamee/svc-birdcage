@@ -17,10 +17,10 @@ public interface IRepository<T> where T : BaseIdEntity
 
     #endregion
 
-    #region Get All Records
+    #region Find All Records
 
-    public List<T> GetAll();
-    public Task<List<T>> GetAllAsync();
+    public List<T> FindAll();
+    public Task<List<T>> FindAllAsync();
 
     #endregion
 
@@ -31,10 +31,10 @@ public interface IRepository<T> where T : BaseIdEntity
 
     #endregion
 
-    #region Get By Id Records
+    #region Find By Id Records
 
-    public T GetById(Guid id);
-    public Task<T?> GetByIdAsync(Guid id);
+    public T FindById(Guid id);
+    public Task<T?> FindByIdAsync(Guid id);
 
     #endregion
 
